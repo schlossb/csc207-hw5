@@ -1,0 +1,28 @@
+
+Excercise a)
+f0(1) = 1. f0(n) = n + f0(n/2).
+2n -1
+examples:
+n = 16 ->
+16 + f(8)
+24 + f(4)
+28 + f(2)
+30 + f(1)
+31
+
+f1(1) = 1. f1(n) = n + f1(n-1).
+average of (n + n -1 + n -2 ... n(0)) = 1/2n
+times n's added for n iterations + 1 for f(0)
+1/2n(n+1)
+f2(1) = 1. f2(n) = c + f2(n-1), for some constant c.
+N counts down adding c each time (n times total), plus f(1) which = 1
+cn + 1
+f3(1) = 1. f3(n) = c + f3(n/2), for some constant c.
+for each doubling of n, c increases by 1, + f(0) which = 1 -
+->c log (base 2) n + 1
+f4(1) = 1. f4(n) = n + 2*f4(n/2)
+n/2 + nlog(b2) (n)
+f5(1) = 1. f5(n) = c + 2*f5(n/2), for some constant c.
+c(n-½)
+f6(1) = 1. f6(n) = c + 2*f6(n-1), for some constant c.
+I was unable to solve this recurrence relation correctly.​
