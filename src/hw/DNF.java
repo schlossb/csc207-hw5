@@ -26,7 +26,9 @@ public class DNF
     int lo = 0;
     int mid = 0;
     int hi = vals.length - 1;
-
+ /*
+   * Invariant: classify (vals[n < mid]) = <-1, classify (vals[lo < n < mid] = 0, classify (vals [n>hi] = > 1
+   */
     while (mid <= hi)
       {
 
