@@ -1,3 +1,11 @@
+NOTE on COMPLETENESS OF THIS ASSIGNMENT:
+
+This information was also included in my email turning the assignment in.
+I did not complete SkipList in time. As such, the files SetofStrings.java, SkipListofStrings.java,
+and SkipNode.java are all very incomplete and should be ignored for the most part.
+I am going to try and finish skip-lists and turn it in late tomorrow,
+I will send and email and update this note when I do.
+Thanks
 
 Excercise a)
 f0(1) = 1. f0(n) = n + f0(n/2).
